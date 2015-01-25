@@ -10,6 +10,7 @@ var (
 )
 
 func main() {
+	//Example graph - adajcency list
 	G = [][]int{[]int{1}, []int{10}, []int{0}, []int{0}, []int{3}, []int{8}, []int{9}, []int{4, 5}, []int{2}, []int{6}, []int{7}}
 	entry_tarjan(G)
 }
